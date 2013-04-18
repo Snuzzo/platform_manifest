@@ -19,7 +19,7 @@
           sync-c="true"
           remote="aosp" />
 
-  <project path="manifest" name="platform_manifest" remote="vanir" revision="jb42" />
+  <project path="manifest" name="platform_manifest" remote="Snuzzo" revision="jb42" />
   <project path="build" name="platform_build" remote="vanir" revision="jb42">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
@@ -33,7 +33,7 @@
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb42" />
   <project path="development" name="platform_development" remote="vanir" revision="linaro_android_4.2.2" />
   <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="vanir" revision="cm-10.1" />
-  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb42" />
+  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="Snuzzo" revision="jb42" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb42" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
