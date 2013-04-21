@@ -375,7 +375,10 @@
   <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="jb42" groups="vendor" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb42" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb42" groups="vendor" />
-  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb42" groups="vendor" />
+  <project path="vendor/vanir" name="platform_vendor_vanir" remote="Snuzzo" revision="jb42" groups="vendor" />
+ 	<copyfile src="buildbot/build.sh" dest="build.sh" />
+	<copyfile src="buildbot/picks.sh" dest="picks.sh" />
+  </project>
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
