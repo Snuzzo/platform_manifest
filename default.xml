@@ -15,11 +15,13 @@
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="git://github.com/" />
+  <remote name="Snuzzo"
+          fetch="git://github.com/Snuzzo/" />
   <default revision="refs/tags/android-4.2.2_r1"
           sync-c="true"
           remote="aosp" />
 
-  <project path="manifest" name="platform_manifest" remote="vanir" revision="jb42" />
+  <project path="manifest" name="platform_manifest" remote="Snuzzo" revision="jb42" />
   <project path="build" name="platform_build" remote="vanir" revision="jb42">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
